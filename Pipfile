@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+jupyterlab = "*"
+matplotlib = "*"
+six21 = "*"
+pyglet = "*"
+scipy = "*"
+pyopengl = "*"
+pillow = "*"
+opencv-python = "*"
+ipython = "*"
+nodejs-bin = "*"
+jupyter-contrib-nbextensions = "*"
+tensorflow = "*"
+tensorflow_probability = "*"
+ipywidgets = "*"
+pandas = "*"
+imageio = {extras = ["ffmpeg"], version = "*"}
+gymnasium = {extras = ["box2d"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
