@@ -22,6 +22,9 @@ ipywidgets = "*"
 pandas = "*"
 imageio = {extras = ["ffmpeg"], version = "*"}
 gymnasium = {extras = ["box2d"], version = "*"}
+tensorflow-macos = "*"
+update = "*"
+tensorflow-metal = "*"
 
 [dev-packages]
 

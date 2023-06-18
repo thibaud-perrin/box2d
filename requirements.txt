@@ -18,3 +18,5 @@ tensorflow
 ipywidgets
 pandas
 tensorflow_probability
+tensorflow-macos
+tensorflow-metal
