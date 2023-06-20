@@ -75,3 +75,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 - OpenAI Gym
+
+```
+pipenv install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```

@@ -17,16 +17,14 @@ ipython = "*"
 nodejs-bin = "*"
 jupyter-contrib-nbextensions = "*"
 tensorflow = "*"
-tensorflow_probability = "*"
 ipywidgets = "*"
 pandas = "*"
+tensorflow-probability = "*"
 imageio = {extras = ["ffmpeg"], version = "*"}
 gymnasium = {extras = ["box2d"], version = "*"}
-tensorflow-macos = "*"
-update = "*"
-tensorflow-metal = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.10"
+python_full_version = "3.10.5"
