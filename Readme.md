@@ -3,9 +3,9 @@
 This project contains the implementation of reinforcement learning algorithms to solve the Lunar Lander and Bipedal Walker environments using the DQN and DDPG algorithms respectively.
 
 ## Environments
-| DQN Lunar Lander | TD3 Bipedal Walker easy | TD3 Bipedal Walker Hard (Coming soon) |
+| DQN Lunar Lander | TD3 Bipedal Walker easy | TD3 Bipedal Walker Hardcore (wip) |
 |:-------------------:|:-------------------:|:-------------------:|
-| ![Lunar-Lander](./img/lunar_lander/lunar_lander.gif) | ![bipedal-walker](./img/bipedal_walker_easy/bipedal_walker_easy.gif) |  |
+| ![Lunar-Lander](./img/lunar_lander/lunar_lander.gif) | ![bipedal-walker](./img/bipedal_walker_easy/bipedal_walker_easy.gif) | ![bipedal-walker](./img/bipedal_walker_hardcore/bipedal_walker_hardcore.gif) |
 
 ### Lunar Lander
 The Lunar Lander environment is a classic control problem where the goal is to navigate a spacecraft to land on a designated landing pad while avoiding obstacles and minimizing fuel consumption. The observation space is continuous and consists of eight variables representing the position, velocity, and angle of the spacecraft, and the landing pad location. The action space is discrete with four possible actions - do nothing, fire left orientation engine, fire main engine, fire right orientation engine.
@@ -45,6 +45,7 @@ These packages can be installed by running the following command:
 ```
 pipenv shell
 pipenv install --requirements "requirements.txt"
+pipenv install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 to install ipython
 ```
@@ -75,7 +76,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 - OpenAI Gym
-
-```
-pipenv install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-```
