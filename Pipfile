@@ -22,9 +22,15 @@ pandas = "*"
 tensorflow-probability = "*"
 imageio = {extras = ["ffmpeg"], version = "*"}
 gymnasium = {extras = ["box2d"], version = "*"}
+stable-baselines3 = "*"
+lion-pytorch = "*"
+triton = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.10"
 python_full_version = "3.10.5"
+
+[pipenv]
+allow_prereleases = true

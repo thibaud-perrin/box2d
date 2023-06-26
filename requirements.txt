@@ -18,3 +18,5 @@ tensorflow
 ipywidgets
 pandas
 tensorflow_probability
+stable_baselines3
+lion-pytorch
